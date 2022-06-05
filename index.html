@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="pink"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="violet"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="sky"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="green"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="yellow"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="orange"></div>
+          </div>
+          <div class="swiper-slide">
+            <div class="babypink"></div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <div class="play">
+        <div class="material-icons pause">pause</div>
+        <div class="material-icons play_arrow none">play_arrow</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 100px auto;
+  width: 1100px;
+  height: 700px;
+}
+.container .swiper {
+  width: 700px;
+  height: 300px;
+  position: relative;
+}
+
+.container .swiper .swiper-slide {
+  width: 700px;
+  height: 300px;
+}
+.container .swiper .swiper-slide .pink {
+  height: 100%;
+  background-color: rgb(249, 73, 134);
+}
+.container .swiper .swiper-slide .violet {
+  height: 100%;
+  background-color: rgb(246, 68, 252);
+}
+.container .swiper .swiper-slide .sky {
+  height: 100%;
+  background-color: rgb(132, 210, 241);
+}
+.container .swiper .swiper-slide .green {
+  height: 100%;
+  background-color: rgb(132, 242, 130);
+}
+.container .swiper .swiper-slide .yellow {
+  height: 100%;
+  background-color: rgb(212, 245, 83);
+}
+.container .swiper .swiper-slide .orange {
+  height: 100%;
+  background-color: rgb(251, 191, 89);
+}
+.container .swiper .swiper-slide .babypink {
+  height: 100%;
+  background-color: rgb(254, 160, 191);
+}
+
+.container .swiper-pagination .swiper-pagination-bullet {
+  background-color: #fff;
+}
+
+.container .swiper .swiper-button-prev,
+.container .swiper .swiper-button-next {
+  display: none;
+  color: #fff;
+  font-size: 24px;
+}
+
+.container .swiper:hover .swiper-button-prev,
+.container .swiper:hover .swiper-button-next {
+  display: block;
+}
+.container .play {
+  width: 700px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 24px;
+}
+.container .pause,
+.container .play_arrow {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 20;
+}
+.container .pause:hover,
+.container .play_arrow:hover {
+  cursor: pointer;
+}
+
+.container .none {
+  display: none;
+}
